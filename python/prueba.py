@@ -205,12 +205,12 @@
    #print(cuenta_numbers)
   # cuenta_numbers+=1
 
-#prompt = '\nDime algo, y yo te repito de vuelta:'
-#prompt += '\nClicar en enter para "salir" del programa.'
-#message=''
-#while message != "salir":
-   # message=input(prompt)
-   # print(message)
+prompt = '\nDime algo, y yo te repito de vuelta:'
+prompt += '\nClicar en enter para "salir" del programa.'
+message=''
+while message != "salir":
+    message=input(prompt)
+    print(message)
 
 
 def describe_pet(tipo_animal,nombre_animal):
